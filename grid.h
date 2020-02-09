@@ -1,3 +1,6 @@
+// grid.h
+// Sets up the Grid, keep track of where all the links are.
+
 #ifndef GRID_H
 #define GRID_H
 #include <iostream>
