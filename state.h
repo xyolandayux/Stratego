@@ -1,27 +1,23 @@
 //
 //  state.h
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//  Properties of observer objects
 
 #ifndef STATE_H
 #define STATE_H
 
-enum class LinkType { Data, Virus, Cells };
-enum class Ability { No, Server, LinkBoost, Firewall, Download, Polarize, Scan, Trade, Next, Battle };
-enum class Direction { Up, Down, Left, Right, Middle };
-enum class GameStatus { Winner, Loser, Unknown, Invalid };
+enum class LinkType { Data, Virus, Cells }; 
+enum class Ability { No, Server, LinkBoost, Firewall, Download, Polarize, Scan, Trade, Next, Battle }; //special abilities
+enum class Direction { Up, Down, Left, Right, Middle };   //in realtion to the newly moved link
+enum class GameStatus { Winner, Loser, Unknown, Invalid };  //result after battling
 enum class Visible { Single, Both };
-enum class StateType { Move, Reply, Null };
-enum class Active { Active, Inactive };
+enum class StateType { Move, Reply, Null };      
+enum class Active { Active, Inactive };  //inactive once a link is downloaded
 
 
 struct State {
-    LinkType type;  // See above
+    LinkType type;  
     Ability ability;
-    Direction direction;  // In which direction from me is the new piece?
+    Direction direction;
     GameStatus status;
     Visible visible;
     StateType state;
