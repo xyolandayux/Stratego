@@ -5,20 +5,20 @@ Both a graphical (on XQuartz - X11) and text (on stdout) representation of the g
 
 Setup:
 This is a two players (can easily be extended to more players if needed) game consists of a 8x8 board and 8 links each.
-A link is either a Data or a Virus, and has a strength between 1 - 4 inclusive. Player 1's links are labelled from a - g, player 2's links are labelled from A - G
+A link is either a Data or a Virus, and has a strength between 1 - 4 inclusive. Player 1's links are labelled from a - h, player 2's links are labelled from A - H.
 
 Goal of the game:
 To download 4 Datas or make your opponent download 4 Viruses.
 
-A turn can consist of using an ability, or moving a link. 
+ A turn can consist of using an ability, or moving a link. 
 
-A link can move horizontally and vertically, but not diagonally. It cannot move to on top of another link of the same player.
+  A link can move horizontally and vertically, but not diagonally. It cannot move to on top of another link of the same player.
 
-If a link is moved on top of an opponents link, their strengths are revealed and the winner downloads the link of the loser.
+  If a link is moved on top of an opponents link, their strengths are revealed and the winner downloads the link of the loser.
 
-If a link is moved on top of the opponent's server port, it gets downloaded by them.
+  If a link is moved on top of the opponent's server port, it gets downloaded by them.
 
-If a link is moved off the edge on the opposite side, it gets downloaded by the owner.
+  If a link is moved off the edge on the opposite side, it gets downloaded by the owner.
 
 
 
