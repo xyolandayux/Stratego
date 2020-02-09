@@ -1,5 +1,5 @@
 //  textdisplay.h
-//  Header file for TextDisplay class which utilizes MVC to output a model of the gameboard
+//  Header file for TextDisplay class which utilizes MVC to output a model of the gameboard after each turn to stdout
 
 #ifndef TEXTDISPLAY_H
 #define TEXTDISPLAY_H
