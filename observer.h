@@ -1,7 +1,9 @@
+//  observer.h
+//  Implements the observer-subject design pattern
+
 #ifndef _OBSERVER_H_
 #define _OBSERVER_H_
 
-// DO NOT MODIFY THIS FILE!
 
 template <typename InfoType, typename StateType> class Subject;
 class Cell;
