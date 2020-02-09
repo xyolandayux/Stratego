@@ -1,5 +1,5 @@
 // info.h
-// Utilized for security reasons for observer objects 
+// Utilized for security reasons for subject objects 
 
 #ifndef __INFO_H__
 #define __INFO_H__
