@@ -1,3 +1,7 @@
+// main.cc
+// Main class that takes user input from stdin or read from a file (for testing purposes), 
+// can specify link strengths and types by running with arguements
+
 #include <iostream>
 #include <string>
 #include "grid.h"
@@ -6,8 +10,6 @@
 #include <sstream>
 #include <unistd.h>
 using namespace std;
-
-// Do not remove any code; do not add code other than where indicated.
 
 int main(int argc, char *argv[]) {
    bool graphics_enabled = false;
