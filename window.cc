@@ -1,9 +1,5 @@
-//
-//  window.cpp
-//  A4Q5
-//
-//  Created by Yolanda on 2019-11-17.
-//  Copyright © 2019 Yolanda. All rights reserved.
+// wndow.cc
+// select functions for setting up and modifying a X11 window
 //
 
 #include <X11/Xlib.h>   
