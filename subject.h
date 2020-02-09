@@ -1,10 +1,6 @@
 //
 //  subject.h
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//  Implements the observer-subject design pattern
 
 #ifndef SUBJECT_H
 #define SUBJECT_H
