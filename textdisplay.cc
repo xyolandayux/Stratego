@@ -1,10 +1,6 @@
 //
-//  textdisplay.cpp
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//  textdisplay.cc
+//  Displays an accuraqte representation of the game board after each turn in text format to stdout 
 
 #include "textdisplay.h"
 #include <vector>
