@@ -50,9 +50,15 @@ Each player can choose 5 abilites at the start of the game, max 2 of each type a
 
 
 Sample test would be:
+
 move a down
+
 move E up
+
 ability 4 b
+
 move f down
+
 ability 3 E
+
 move G up
