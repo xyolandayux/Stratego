@@ -11,14 +11,10 @@ Goal of the game:
 To download 4 Datas or make your opponent download 4 Viruses.
 
  A turn can consist of using an ability, or moving a link. 
-
-  A link can move horizontally and vertically, but not diagonally. It cannot move to on top of another link of the same player.
-
-  If a link is moved on top of an opponents link, their strengths are revealed and the winner downloads the link of the loser.
-
-  If a link is moved on top of the opponent's server port, it gets downloaded by them.
-
-  If a link is moved off the edge on the opposite side, it gets downloaded by the owner.
+	A link can move horizontally and vertically, but not diagonally. It cannot move to on top of another link of the same player.
+	If a link is moved on top of an opponents link, their strengths are revealed and the winner downloads the link of the loser.
+	If a link is moved on top of the opponent's server port, it gets downloaded by them.
+	If a link is moved off the edge on the opposite side, it gets downloaded by the owner.
 
 
 
