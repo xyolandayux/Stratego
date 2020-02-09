@@ -1,10 +1,6 @@
-//
-//  window.hpp
-//  A4Q5
-//
-//  Created by Yolanda on 2019-11-17.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//window.h
+//Header file for constructing a X11 Window
+
 
 #ifndef __WINDOW_H__
 #define __WINDOW_H__
