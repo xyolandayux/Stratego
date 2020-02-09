@@ -1,3 +1,7 @@
+// graphicsdisplay.cc
+// Initialize the graphics dispaly with default setup up, and updates after each turn accordingly 
+// using the MVC model by observing each link piece
+
 #include "graphicsdisplay.h"
 #include "state.h"
 #include <iostream>
@@ -19,10 +23,6 @@ GraphicsDisplay::GraphicsDisplay(){
     }
 }
 
-//getter function for x
-// Xwindow& GraphicsDisplay::getX(){
-//     return x;
-// }
 
 void GraphicsDisplay::fillRec(int x1, int y, int width, int height, int color){
     x.fillRectangle(x1, y, width, height, color);
