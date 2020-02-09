@@ -1,6 +1,6 @@
 // main.cc
 // Main class that takes user input from stdin or read from a file (for testing purposes), 
-// can specify link strengths and types by running with arguements
+// can specify link strengths and types by having command line inputs
 
 #include <iostream>
 #include <string>
