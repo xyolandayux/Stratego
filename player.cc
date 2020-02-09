@@ -65,48 +65,6 @@ void Player::displayAbilities(){
     cout << endl;
 }
 
-//std::vector<Ability> Player::get_abilities(){
-//    return abilities;
-//}
-//std::vector<Ability> Player::get_og_abilities(){
-//    return og_abilities;
-//}
-
-//void Player::displayAbilities(){
-//    cout << "Original abilities: ";
-//    for(int i = 0; i < og_abilities.size(); i++){
-//        Ability ability = og_abilities.at(i);
-//        char cur_ab;
-//        if(ability == Ability::LinkBoost) cur_ab = 'L';
-//        else if(ability == Ability::Firewall) cur_ab = 'F';
-//        else if(ability == Ability::Download) cur_ab = 'D';
-//        else if(ability == Ability::Scan) cur_ab = 'S';
-//        else if(ability == Ability::Polarize) cur_ab = 'P';
-//        else cur_ab = ' ';
-//
-//        if(ability != Ability::No){
-//            cout << cur_ab << "(" << i + 1 << ") ";
-//        }
-//    }
-//    cout << endl;
-//    cout << "Available abilities: ";
-//    for(int i = 0; i < abilities.size(); i++){
-//        Ability ability = abilities.at(i);
-//        char cur_ab;
-//        if(ability == Ability::LinkBoost) cur_ab = 'L';
-//        else if(ability == Ability::Firewall) cur_ab = 'F';
-//        else if(ability == Ability::Download) cur_ab = 'D';
-//        else if(ability == Ability::Scan) cur_ab = 'S';
-//        else if(ability == Ability::Polarize) cur_ab = 'P';
-//        else cur_ab = ' ';
-//
-//        if(ability != Ability::No){
-//            cout << cur_ab << "(" << i + 1 << ") ";
-//        }
-//    }
-//    cout << endl;
-//
-//}
 
 void Player::drawInfo(GraphicsDisplay *gd, int num){
     if (this->pnum == num + 1){
