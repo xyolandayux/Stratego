@@ -1,3 +1,8 @@
+// grid.cc
+// Initilize the game board with default setup of links in set positions. 
+// Checks validity of moves and usage of abilities.
+// Interact with both the Player and Link class for high cohesiveness
+
 #include <utility>
 #include "grid.h"
 #include "textdisplay.h"
@@ -364,7 +369,6 @@ bool Grid::Firewall(int r, int c){
 }
 
         
-
 void Grid::displayAbilities(){
     if(turns == 0){
         one.displayAbilities();
