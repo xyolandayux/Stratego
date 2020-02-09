@@ -18,6 +18,9 @@ To download 4 Datas or make your opponent download 4 Viruses.
 
 
 
+
+
+
 Abilities includes:
 
   Link Boost (L) : allows one link to move 2 spaces 
@@ -42,4 +45,14 @@ Abilities includes:
 Each player can choose 5 abilites at the start of the game, max 2 of each type and each ability can only be used once in the game. 
 
 
+
+
+
+
 Sample test would be:
+move a down
+move E up
+ability 4 b
+move f down
+ability 3 E
+move G up
