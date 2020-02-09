@@ -1,10 +1,5 @@
-//
-//  textdisplay.hpp
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//  textdisplay.h
+//  Header file for TextDisplay class which utilizes MVC to output a model of the gameboard
 
 #ifndef TEXTDISPLAY_H
 #define TEXTDISPLAY_H
