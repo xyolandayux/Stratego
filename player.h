@@ -1,10 +1,7 @@
 //
-//  player.hpp
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
-//
+//  player.h
+//  Header for the Player class that holds player information
+
 
 #ifndef player_h
 #define player_h
