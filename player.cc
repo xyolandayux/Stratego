@@ -1,9 +1,6 @@
 //
-//  player.cpp
-//  A5
-//
-//  Created by Yolanda on 2019-11-21.
-//  Copyright © 2019 Yolanda. All rights reserved.
+//  player.cc
+//  Defines the win condition and keeps track of special abilities each player has
 //
 
 #include "player.h"
