@@ -8,7 +8,7 @@ This is a two players (can easily be extended to more players if needed) game co
 A link is either a Data or a Virus, and has a strength between 1 - 4 inclusive.
 
 Goal of the game:
-To download 4 datas or make your opponent download 4 viruses.
+To download 4 Datas or make your opponent download 4 Viruses.
 
 A turn can consist of using an ability, or moving a link. 
 A link can move horizontally and vertically, but not diagonally. It cannot move to on top of another link of the same player.
