@@ -1,3 +1,7 @@
+// graphicsdisplay.h
+// Sets up the graphical version of the game board utilizing X11
+
+
 #ifndef graphicsdisplay_h
 #define graphicsdisplay_h
 #include <iostream>
