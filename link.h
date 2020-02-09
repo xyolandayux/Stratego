@@ -1,3 +1,6 @@
+// link.h
+// Creates a Link object for each link with information such as type, strength, owner. location and ability casted. 
+
 #ifndef link_h
 #define link_h
 #include <cstddef>
