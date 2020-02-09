@@ -1,6 +1,6 @@
 //
 //  textdisplay.cc
-//  Displays an accuraqte representation of the game board after each turn in text format to stdout 
+//  Displays an accurate representation of the game board after each turn in text format to stdout 
 
 #include "textdisplay.h"
 #include <vector>
