@@ -1,3 +1,6 @@
+// link.cc
+// Implement the functions of each link piece, such as move, battle and activate abilities
+
 #include "link.h"
 #include "graphicsdisplay.h"
 
